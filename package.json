@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "react-talk",
+  "version": "0.0.0",
+  "description": "A React Primer",
+  "license": "MIT",
+  "author": {
+    "name": "Federico Knüssel",
+    "email": "fknussel@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fknussel/react-talk.git"
+  },
+  "scripts": {
+    "start": "remarker",
+    "build": "remarker build"
+  },
+  "dependencies": {
+    "remarker": "^1.5.1"
+  }
+}
