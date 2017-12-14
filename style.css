@@ -15,27 +15,20 @@ li {
 }
 
 .inverse {
+  background-color: #1a9988;
   color: #fff;
 }
 
 .inverse a {
   color: #fff;
+  text-decoration: none;
 }
 
-.inverse--dark {
-  background-color: #1b1b1b;
-}
-
-.inverse--green {
-  background-color: #1a9988;
-}
-
-.inverse--blue {
-  background-color: #0047b3;
-}
-
-.inverse--orange {
-  background-color: #eb5600;
+.inverse h1,
+.inverse h2,
+.inverse p,
+.inverse a {
+  text-shadow: 4px 4px 0 rgba(0,0,0,0.25);
 }
 
 .inverse h1 {
@@ -50,14 +43,24 @@ li {
   text-align: left !important;
 }
 
-.thanks .lighten {
-  color: #ffb8a2;
-}
-
-.secondary {
-  opacity: 0.15;
-}
-
 .thanks h2 {
   font-size: 60px;
+}
+
+.lighten {
+  opacity: 0.25;
+}
+
+.highlight {
+  background-color: #eb5600;
+  padding: 10px 25px 15px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 6px 6px 0 rgba(0,0,0,0.2);
+  border-radius: 4px;
+}
+
+.full-width img {
+  width: 100%;
 }
