@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "react-talk",
+  "name": "react-primer",
   "version": "0.0.0",
   "description": "A React Primer",
   "license": "MIT",
@@ -10,13 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fknussel/react-talk.git"
+    "url": "https://github.com/fknussel/react-primer.git"
   },
   "scripts": {
     "start": "remarker",
     "build": "remarker build"
   },
   "dependencies": {
-    "remarker": "^1.5.1"
+    "remarker": "^1.5.1",
+    "slides-base-css": "^1.0.0"
   }
 }

@@ -204,7 +204,7 @@ ReactDOM.render(Story, document.getElementById('root'));
 
 class: inverse, center, middle
 
-# .lighten[Components are functions] that receive props
+# .secondary[Components are functions] that receive props
 
 ---
 
@@ -242,7 +242,7 @@ class: inverse, center, middle
 ```js
 class Timer extends React.Component {
   // ...
-  
+
   componentDidMount() {
     // called after the component is added to the DOM
     this.timerId = setInterval(this.tick, 1000);
@@ -265,13 +265,13 @@ class Timer extends React.Component {
 
 class: inverse, center, middle
 
-# .lighten[Components can also be classes] that receive props
+# .secondary[Components can also be classes] that receive props
 
 ---
 
 class: inverse, center, middle
 
-# .lighten[Components can also be classes that receive props] and keep track of their own state
+# .secondary[Components can also be classes that receive props] and keep track of their own state
 
 ---
 
@@ -295,7 +295,7 @@ class: inverse, center, middle
 
 # Hands-on Practice
 
-## .lighten[Let's build an Instagram clone]
+## .secondary[Let's build an Instagram clone]
 
 ---
 
@@ -313,10 +313,10 @@ https://github.com/fknussel/react-workshop
 
 ---
 
-class: inverse, center, middle, thanks
+class: inverse, center, middle, contact-details
 
-## .lighten[Slides:] https://bit.ly/asd
+## .secondary[Slides:] https://fknussel.com
 
-## .lighten[Email:] fknussel@gmail.com
+## .secondary[Email:] fknussel@gmail.com
 
-## .lighten[Twitter/GitHub:] @fknussel
+## .secondary[Twitter/GitHub:] @fknussel
